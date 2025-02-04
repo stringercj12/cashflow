@@ -8,8 +8,6 @@ namespace CashFlow.Application.UseCase.Expenses.Register
     {
         public ResponseRegisteredExpenseJson Execute(RequestRegisterExpenseJson request)
         {
-            // TO DO VALIDATIONS
-
             Validate(request);
 
             return new ResponseRegisteredExpenseJson();
@@ -17,30 +15,14 @@ namespace CashFlow.Application.UseCase.Expenses.Register
 
         private void Validate(RequestRegisterExpenseJson request)
         {
-            var titleIsEmpty = string.IsNullOrWhiteSpace(request.Title);
+            var validator = new RegisterExpenseValidator();
+            var result = validator.Validate(request);
 
-            if(titleIsEmpty)
+            if (result.IsValid == false)
             {
-                throw new ArgumentException("The title is required");
-            }
+                var errorMessages = result.Errors.Select(f => f.ErrorMessage).ToList();
 
-            if(request.Amount <= 0)
-            {
-                throw new ArgumentException("The amount must be than zero.");
-            }
-
-            var result = DateTime.Compare(request.Date, DateTime.UtcNow);
-
-            if(result > 0)
-            {
-                throw new ArgumentException("Expenses cannot be for the future");
-            }
-
-           var paymentTypeIsValid = Enum.IsDefined(typeof(PaymentType), request.PaymentType);
-
-            if (paymentTypeIsValid == false)
-            {
-                throw new ArgumentException("Payment Type is not valid.");
+              =
             }
         }
     }

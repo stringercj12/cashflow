@@ -17,8 +17,8 @@
   "libraries": {
     "CashFlow.Domain/1.0.0": {
       "type": "project",
-      "path": "../../CashFlow.Domain/CashFlow.Domain.csproj",
-      "msbuildProject": "../../CashFlow.Domain/CashFlow.Domain.csproj"
+      "path": "../CashFlow.Domain/CashFlow.Domain.csproj",
+      "msbuildProject": "../CashFlow.Domain/CashFlow.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -58,8 +58,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\jeffe\\source\\repos\\CashFlow\\CashFlow.Domain\\CashFlow.Domain.csproj": {
-              "projectPath": "C:\\Users\\jeffe\\source\\repos\\CashFlow\\CashFlow.Domain\\CashFlow.Domain.csproj"
+            "C:\\Users\\jeffe\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj": {
+              "projectPath": "C:\\Users\\jeffe\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj"
             }
           }
         }

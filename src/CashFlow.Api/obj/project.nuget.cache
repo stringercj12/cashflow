@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5SnXC07ZwkY=",
-  "success": false,
+  "dgSpecHash": "QPdX5pobkYY=",
+  "success": true,
   "projectFilePath": "C:\\Users\\jeffe\\source\\repos\\CashFlow\\src\\CashFlow.Api\\CashFlow.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jeffe\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\jeffe\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\jeffe\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
     "C:\\Users\\jeffe\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
@@ -11,24 +12,5 @@
     "C:\\Users\\jeffe\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
     "C:\\Users\\jeffe\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\jeffe\\source\\repos\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception\\CashFlow.Exception.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\jeffe\\source\\repos\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception\\CashFlow.Exception.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\jeffe\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain\\CashFlow.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\jeffe\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain\\CashFlow.Domain.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

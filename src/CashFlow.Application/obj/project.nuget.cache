@@ -1,27 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "H8LpNhaP2vI=",
-  "success": false,
+  "dgSpecHash": "qvWwX+7uh/k=",
+  "success": true,
   "projectFilePath": "C:\\Users\\jeffe\\source\\repos\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\jeffe\\source\\repos\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception\\CashFlow.Exception.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\jeffe\\source\\repos\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception\\CashFlow.Exception.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\jeffe\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain\\CashFlow.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\jeffe\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain\\CashFlow.Domain.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "expectedPackageFiles": [
+    "C:\\Users\\jeffe\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512"
+  ],
+  "logs": []
 }

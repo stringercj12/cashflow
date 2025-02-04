@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jeffe\\source\\repos\\CashFlow\\CashFlow.Domain\\CashFlow.Domain.csproj": {}
+    "C:\\Users\\jeffe\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jeffe\\source\\repos\\CashFlow\\CashFlow.Domain\\CashFlow.Domain.csproj": {
+    "C:\\Users\\jeffe\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeffe\\source\\repos\\CashFlow\\CashFlow.Domain\\CashFlow.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\jeffe\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj",
         "projectName": "CashFlow.Domain",
-        "projectPath": "C:\\Users\\jeffe\\source\\repos\\CashFlow\\CashFlow.Domain\\CashFlow.Domain.csproj",
+        "projectPath": "C:\\Users\\jeffe\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj",
         "packagesPath": "C:\\Users\\jeffe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeffe\\source\\repos\\CashFlow\\CashFlow.Domain\\obj\\",
+        "outputPath": "C:\\Users\\jeffe\\source\\repos\\CashFlow\\src\\CashFlow.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
