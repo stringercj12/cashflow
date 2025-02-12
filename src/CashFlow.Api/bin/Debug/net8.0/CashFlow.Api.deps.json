@@ -10,7 +10,6 @@
         "dependencies": {
           "CashFlow.Application": "1.0.0",
           "CashFlow.Communication": "1.0.0",
-          "CashFlow.Exception": "1.0.0",
           "CashFlow.Infrastructure": "1.0.0",
           "Swashbuckle.AspNetCore": "7.2.0"
         },
