@@ -7,17 +7,18 @@ using ClashFlow.Exception.ExceptionsBase;
 
 namespace CashFlow.Application.UseCase.Expenses.Register
 {
-    public class RegisterExpenseUseCase  : IRegisterExpenseUseCase
+    public class RegisterExpenseUseCase : IRegisterExpenseUseCase
     {
         private readonly IExpensesRepository _repository;
-            private readonly IUnitOfWork _unitOfWork;
+        private readonly IUnitOfWork _unitOfWork;
+
         public RegisterExpenseUseCase(IExpensesRepository repository, IUnitOfWork unitOfWork)
         {
             _repository = repository;
             _unitOfWork = unitOfWork;
         }
 
-        public ResponseRegisteredExpenseJson Execute(RequestRegisterExpenseJson request)
+        public async Task<ResponseRegisteredExpenseJson> Execute(RequestRegisterExpenseJson request)
         {
             Validate(request);
 
@@ -30,9 +31,9 @@ namespace CashFlow.Application.UseCase.Expenses.Register
                 PaymentType = (Domain.Enums.PaymentType)request.PaymentType,
             };
 
-            _repository.Add(expense);
+            await _repository.Add(expense);
 
-            _unitOfWork.Commit();
+            await _unitOfWork.Commit();
 
             return new ResponseRegisteredExpenseJson();
         }
