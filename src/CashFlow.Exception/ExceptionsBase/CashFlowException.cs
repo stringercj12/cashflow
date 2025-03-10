@@ -6,5 +6,8 @@
         {
 
         }
+
+        public abstract int StatucCode { get; }
+        public abstract List<string> GetErrors();
     }
 }

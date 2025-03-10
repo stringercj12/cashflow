@@ -25,12 +25,12 @@ namespace CashFlow.Application.UseCase.Expenses.GetById
             var result = await _repository.GetById(id);
 
 
-            if (result is not null)
+            if (result is null)
             {
                 throw new NotFoundException(ResourceErrorMessages.EXPENSES_NOT_FOUND);
             }
 
-                return _mapper.Map<ResponseExpenseJson>(result);
+            return _mapper.Map<ResponseExpenseJson>(result);
         }
     }
 }
