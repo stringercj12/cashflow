@@ -10,12 +10,12 @@ namespace CashFlow.Application.UseCase.Expenses.Register
 {
     public class RegisterExpenseUseCase : IRegisterExpenseUseCase
     {
-        private readonly IExpensesRepository _repository;
+        private readonly IExpensesWriteOnlyRepository _repository;
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
         public RegisterExpenseUseCase(
-            IExpensesRepository repository,
+            IExpensesWriteOnlyRepository repository,
             IUnitOfWork unitOfWork,
             IMapper mapper)
         {
@@ -45,7 +45,6 @@ namespace CashFlow.Application.UseCase.Expenses.Register
             if (result.IsValid == false)
             {
                 var errorMessages = result.Errors.Select(f => f.ErrorMessage).ToList();
-
 
                 throw new ErrorOnValidationException(errorMessages);
             }
