@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace ClashFlow.Exception.ExceptionsBase
+namespace CashFlow.Exception.ExceptionsBase
 {
     public class ErrorOnValidationException : CashFlowException
     {

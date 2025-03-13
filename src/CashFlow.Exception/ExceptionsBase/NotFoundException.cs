@@ -1,5 +1,4 @@
 ﻿using System.Net;
-using ClashFlow.Exception.ExceptionsBase;
 
 namespace CashFlow.Exception.ExceptionsBase
 {
