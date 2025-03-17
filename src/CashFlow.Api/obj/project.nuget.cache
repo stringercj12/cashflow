@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "H5UUpKIKqw0=",
+  "dgSpecHash": "HbHbYCaCfbg=",
   "success": true,
   "projectFilePath": "C:\\Users\\jefferson.ferreira\\Documents\\projetos\\estudos\\cashflow\\src\\CashFlow.Api\\CashFlow.Api.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,7 @@
     "C:\\Users\\jefferson.ferreira\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\jefferson.ferreira\\.nuget\\packages\\microsoft.openapi\\1.6.22\\microsoft.openapi.1.6.22.nupkg.sha512",
     "C:\\Users\\jefferson.ferreira\\.nuget\\packages\\mysqlconnector\\2.3.5\\mysqlconnector.2.3.5.nupkg.sha512",
+    "C:\\Users\\jefferson.ferreira\\.nuget\\packages\\pdfsharp-migradoc\\6.1.1\\pdfsharp-migradoc.6.1.1.nupkg.sha512",
     "C:\\Users\\jefferson.ferreira\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\8.0.2\\pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512",
     "C:\\Users\\jefferson.ferreira\\.nuget\\packages\\rbush\\4.0.0\\rbush.4.0.0.nupkg.sha512",
     "C:\\Users\\jefferson.ferreira\\.nuget\\packages\\sixlabors.fonts\\1.0.0\\sixlabors.fonts.1.0.0.nupkg.sha512",

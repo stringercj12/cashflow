@@ -2,6 +2,7 @@
 using CashFlow.Domain.Reports;
 using CashFlow.Domain.Repositories.Expenses;
 using ClosedXML.Excel;
+using CashFlow.Domain.Extensions;
 
 namespace CashFlow.Application.UseCase.Expenses.Reports.Excel
 {
@@ -39,7 +40,7 @@ namespace CashFlow.Application.UseCase.Expenses.Reports.Excel
             {
                 worksheet.Cell($"A{raw}").Value = expense.Title;
                 worksheet.Cell($"B{raw}").Value = expense.Date;
-                worksheet.Cell($"C{raw}").Value = ConvertPaymentType(expense.PaymentType);
+                worksheet.Cell($"C{raw}").Value = expense.PaymentType.PaymentTypeToString();
 
                 worksheet.Cell($"D{raw}").Value = expense.Amount;
                 worksheet.Cell($"D{raw}").Style.NumberFormat.Format = $"-{CURRENCY_SIMBOL} #,##0.00";
