@@ -26,7 +26,7 @@ namespace CashFlow.Api.Filters
             var cashFlowException = (CashFlowException)context.Exception;
             var errorResponse = new ResponseErrorJson(cashFlowException.GetErrors());
 
-            context.HttpContext.Response.StatusCode = cashFlowException.StatucCode;
+            context.HttpContext.Response.StatusCode = cashFlowException.StatusCode;
             context.Result = new ObjectResult(errorResponse);
 
         }

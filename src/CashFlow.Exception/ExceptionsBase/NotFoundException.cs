@@ -9,7 +9,7 @@ namespace CashFlow.Exception.ExceptionsBase
 
         }
 
-        public override int StatucCode => (int)HttpStatusCode.NotFound;
+        public override int StatusCode => (int)HttpStatusCode.NotFound;
 
         public override List<string> GetErrors()
         {

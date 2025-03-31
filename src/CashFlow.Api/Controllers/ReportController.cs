@@ -1,6 +1,6 @@
 ﻿using System.Net.Mime;
-using CashFlow.Application.UseCase.Expenses.Reports.Excel;
-using CashFlow.Application.UseCase.Expenses.Reports.Pdf;
+using CashFlow.Application.UseCases.Expenses.Reports.Excel;
+using CashFlow.Application.UseCases.Expenses.Reports.Pdf;
 using CashFlow.Communication.Requests;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

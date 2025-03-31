@@ -6,7 +6,7 @@ namespace CashFlow.Exception.ExceptionsBase
     {
         private readonly List<string> _errors;
 
-        public override int StatucCode => (int)HttpStatusCode.BadRequest;
+        public override int StatusCode => (int)HttpStatusCode.BadRequest;
 
         public ErrorOnValidationException(List<string> errorMessages) : base(string.Empty)
         {

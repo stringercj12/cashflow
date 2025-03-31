@@ -7,17 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="UseCase\Expenses\Reports\Pdf\Fonts\Raleway-Black.ttf" />
-    <None Remove="UseCase\Expenses\Reports\Pdf\Fonts\Raleway-Regular.ttf" />
-    <None Remove="UseCase\Expenses\Reports\Pdf\Fonts\WorkSans-Black.ttf" />
-    <None Remove="UseCase\Expenses\Reports\Pdf\Fonts\WorkSans-Regular.ttf" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="UseCase\Expenses\Reports\Pdf\Fonts\Raleway-Black.ttf" />
-    <EmbeddedResource Include="UseCase\Expenses\Reports\Pdf\Fonts\Raleway-Regular.ttf" />
-    <EmbeddedResource Include="UseCase\Expenses\Reports\Pdf\Fonts\WorkSans-Black.ttf" />
-    <EmbeddedResource Include="UseCase\Expenses\Reports\Pdf\Fonts\WorkSans-Regular.ttf" />
+    <Compile Remove="UseCase\**" />
+    <EmbeddedResource Remove="UseCase\**" />
+    <None Remove="UseCase\**" />
   </ItemGroup>
 
   <ItemGroup>
