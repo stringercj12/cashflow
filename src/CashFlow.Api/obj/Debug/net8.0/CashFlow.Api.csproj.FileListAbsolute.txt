@@ -208,3 +208,7 @@ C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.pdb
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.genruntimeconfig.cache
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\ref\CashFlow.Api.dll
+C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "0gIfmWmT4VI=",
+  "dgSpecHash": "DHghJlKTDsI=",
   "success": true,
   "projectFilePath": "C:\\Users\\jefferson.ferreira\\Documents\\projetos\\estudos\\cashflow\\tests\\CommonTestUtilities\\CommonTestUtilities.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jefferson.ferreira\\.nuget\\packages\\bogus\\35.6.1\\bogus.35.6.1.nupkg.sha512"
+    "C:\\Users\\jefferson.ferreira\\.nuget\\packages\\bogus\\35.6.1\\bogus.35.6.1.nupkg.sha512",
+    "C:\\Users\\jefferson.ferreira\\.nuget\\packages\\microsoft.aspnetcore.http.features\\6.0.0-preview.4.21253.5\\microsoft.aspnetcore.http.features.6.0.0-preview.4.21253.5.nupkg.sha512",
+    "C:\\Users\\jefferson.ferreira\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0-preview.4.21253.7\\microsoft.extensions.primitives.6.0.0-preview.4.21253.7.nupkg.sha512",
+    "C:\\Users\\jefferson.ferreira\\.nuget\\packages\\system.io.pipelines\\6.0.0-preview.4.21253.7\\system.io.pipelines.6.0.0-preview.4.21253.7.nupkg.sha512",
+    "C:\\Users\\jefferson.ferreira\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0-preview.4.21253.7\\system.runtime.compilerservices.unsafe.6.0.0-preview.4.21253.7.nupkg.sha512"
   ],
   "logs": []
 }

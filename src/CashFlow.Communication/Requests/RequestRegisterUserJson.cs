@@ -1,9 +1,12 @@
-﻿namespace CashFlow.Communication.Requests
+﻿using Microsoft.AspNetCore.Http;
+
+namespace CashFlow.Communication.Requests
 {
     public class RequestRegisterUserJson
     {
         public string Name { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
+        public IFormFile? excel { get; set; }
     }
 }

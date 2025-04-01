@@ -21,3 +21,4 @@ C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Com
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Communication\obj\Debug\net8.0\refint\CashFlow.Communication.dll
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.pdb
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Communication\obj\Debug\net8.0\ref\CashFlow.Communication.dll
+C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.csproj.AssemblyReference.cache
