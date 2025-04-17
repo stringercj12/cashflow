@@ -7,13 +7,13 @@ using CashFlow.Exception.ExceptionsBase;
 
 namespace CashFlow.Application.UseCases.Login
 {
-    class DoLoginUseCase : IDoLoginUseCase
+    public class DoLoginUseCase : IDoLoginUseCase
     {
         private readonly IUserReadOnlyRepository _repository;
         private readonly IAccessTokenGenerator _accessTokenGenerator;
-        private readonly IPasswordEncripter _passwordEncripter;
+        private readonly IPasswordEncrypter _passwordEncripter;
 
-        public DoLoginUseCase(IAccessTokenGenerator accessTokenGenerator, IUserReadOnlyRepository repository, IPasswordEncripter passwordEncripter)
+        public DoLoginUseCase(IUserReadOnlyRepository repository, IPasswordEncrypter passwordEncripter, IAccessTokenGenerator accessTokenGenerator)
         {
             _accessTokenGenerator = accessTokenGenerator;
             _repository = repository;

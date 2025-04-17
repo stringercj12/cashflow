@@ -45,13 +45,6 @@ C:\Users\jeffe\source\repos\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\refint\Ca
 C:\Users\jeffe\source\repos\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.pdb
 C:\Users\jeffe\source\repos\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.genruntimeconfig.cache
 C:\Users\jeffe\source\repos\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\ref\CashFlow.Api.dll
-C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.csproj.AssemblyReference.cache
-C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.AssemblyInfoInputs.cache
-C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.AssemblyInfo.cs
-C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.csproj.CoreCompileInputs.cache
-C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.sourcelink.json
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\appsettings.json
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\CashFlow.Api.staticwebassets.endpoints.json
@@ -70,6 +63,7 @@ C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\ExcelNumberFormat.dll
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Humanizer.dll
+C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -91,6 +85,8 @@ C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Mono.TextTemplating.dll
@@ -191,6 +187,14 @@ C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\fr\CashFlow.Exception.resources.dll
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\pt-BR\CashFlow.Exception.resources.dll
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\pt-PT\CashFlow.Exception.resources.dll
+C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.csproj.AssemblyReference.cache
+C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.AssemblyInfoInputs.cache
+C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.AssemblyInfo.cs
+C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.csproj.CoreCompileInputs.cache
+C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.sourcelink.json
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\scopedcss\bundle\CashFlow.Api.styles.css
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\staticwebassets.development.json
@@ -208,7 +212,3 @@ C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.pdb
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.genruntimeconfig.cache
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\ref\CashFlow.Api.dll
-C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

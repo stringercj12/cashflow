@@ -17,7 +17,7 @@ namespace CashFlow.Infrastructure
     {
         public static void AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddScoped<IPasswordEncripter, PasswordEncripter>();
+            services.AddScoped<IPasswordEncrypter, PasswordEncripter>();
 
             AddDbContext(services, configuration);
             AddToken(services, configuration);

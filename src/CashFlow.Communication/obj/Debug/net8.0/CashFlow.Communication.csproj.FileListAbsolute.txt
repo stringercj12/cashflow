@@ -12,6 +12,7 @@ C:\Users\jeffe\source\repos\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Communication\bin\Debug\net8.0\CashFlow.Communication.deps.json
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Communication\bin\Debug\net8.0\CashFlow.Communication.dll
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Communication\bin\Debug\net8.0\CashFlow.Communication.pdb
+C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.csproj.AssemblyReference.cache
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.AssemblyInfoInputs.cache
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.AssemblyInfo.cs
@@ -21,4 +22,3 @@ C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Com
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Communication\obj\Debug\net8.0\refint\CashFlow.Communication.dll
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.pdb
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Communication\obj\Debug\net8.0\ref\CashFlow.Communication.dll
-C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.csproj.AssemblyReference.cache
