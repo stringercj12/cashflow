@@ -47,6 +47,7 @@ C:\Users\jeffe\source\repos\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.
 C:\Users\jeffe\source\repos\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\ref\CashFlow.Api.dll
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\appsettings.json
+C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\appsettings.Testing.json
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\CashFlow.Api.staticwebassets.endpoints.json
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\CashFlow.Api.exe
 C:\Users\jefferson.ferreira\Documents\projetos\estudos\cashflow\src\CashFlow.Api\bin\Debug\net8.0\Logo\user-teste.jpg

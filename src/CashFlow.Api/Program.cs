@@ -4,9 +4,12 @@ using CashFlow.Api.Middleware;
 using CashFlow.Application;
 using CashFlow.Infrastructure;
 using CashFlow.Infrastructure.Migrations;
+using CashFlow.Infrastructure.Extensions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using CashFlow.Domain.Security.Tokens;
+using CashFlow.Api.Token;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -51,6 +54,10 @@ builder.Services.AddMvc(options => options.Filters.Add(typeof(ExceptionFilter)))
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication();
 
+builder.Services.AddScoped<ITokenProvider, HttpContextTokenValue>();
+
+builder.Services.AddHttpContextAccessor();
+
 var signingKey = builder.Configuration.GetValue<string>("Settings:Jwt:SigningKey");
 
 builder.Services.AddAuthentication(config =>
@@ -85,7 +92,11 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-await MigrateDatabase();
+if (builder.Configuration.IsTestEnvironment() == false)
+{
+    await MigrateDatabase();
+}
+
 
 app.Run();
 
@@ -95,4 +106,9 @@ async Task MigrateDatabase()
     await using var scope = app.Services.CreateAsyncScope();
 
     await DataBaseMigration.MigrateDatabase(scope.ServiceProvider);
+}
+
+public partial class Program
+{
+
 }

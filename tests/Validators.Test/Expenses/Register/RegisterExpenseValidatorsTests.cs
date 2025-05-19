@@ -95,7 +95,7 @@ namespace Validators.Test.Expenses.Register
             var result = validator.Validate(request);
 
             result.IsValid.ShouldBe(false);
-            Console.Write(result.Errors);
+
             result.Errors.ShouldSatisfyAllConditions(
                errors => errors.ShouldHaveSingleItem(),
                errors => errors.ShouldNotBeNull(),

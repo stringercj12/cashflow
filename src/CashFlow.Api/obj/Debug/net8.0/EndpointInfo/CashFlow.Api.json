@@ -536,11 +536,6 @@
           "password": {
             "type": "string",
             "nullable": true
-          },
-          "excel": {
-            "type": "string",
-            "format": "binary",
-            "nullable": true
           }
         },
         "additionalProperties": false
